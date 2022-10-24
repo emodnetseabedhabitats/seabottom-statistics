@@ -1,8 +1,7 @@
 # Seabottom Statistical Libraries v4.1
-This software has been developed in the course of several different phases of "The
-European Marine Observation and Data Network (EMODnet) broad-scale seabed habi-
-tat map for Europe", known as EUSeaMap since the start of phase 2 in 2013. (see https:
-//www.emodnet-seabedhabitats.eu). It started as a series of dfferent FORmula TRANs-
+This software has been developed in the course of several different phases of the
+EMODnet (European Marine Observation and Data Network) broad-scale seabed habitat map for Europe", known as EUSeaMap since the start of phase 2 in 2013. (see https:
+//www.emodnet-seabedhabitats.eu). It started as a series of different FORmula TRANs-
 lator (FORTRAN) codes aimed to provide an estimate of the kinetic energy close to the
 sea bottom due to the effects of waves and currents in the Mediterranean Sea.
 The process of evaluating the value of a parameter on a curvilinear
@@ -36,7 +35,7 @@ Since 2016 CMEMS has provided sufficiently high resolution simulations of physic
 characteristics of the European seas to be successfully used to evaluate the bottom ki-
 netic energy. In 2022 it was decided to implement all software in the form of a library
 which would provide a way to easily extract the desired estimates using only CMEMS
-oceanographic outputs and EMODnet bathymetryes.
+oceanographic outputs and EMODnet bathymetry.
 The code is written in Python for several (good) reasons. The first is that it is a widely 
 used language which has been adopted by almost all scientific communities. Second is that 
 is particularly apt to work in object-oriented environments, has effective methods to deal 
