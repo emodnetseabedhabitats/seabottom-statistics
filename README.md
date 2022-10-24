@@ -1,7 +1,7 @@
 # Seabottom Statistical Libraries v4.1
 This software has been developed in the course of several different phases of the
-EMODnet (European Marine Observation and Data Network) broad-scale seabed habitat map for Europe", known as EUSeaMap since the start of phase 2 in 2013. (see https:
-//www.emodnet-seabedhabitats.eu). It started as a series of different FORmula TRANs-
+EMODnet (European Marine Observation and Data Network) broad-scale seabed habitat map for Europe, known as EUSeaMap. (see https:
+//www.emodnet-seabedhabitats.eu). It started in 2013 during EMODnet phase 2 as a series of different FORmula TRANs-
 lator (FORTRAN) codes aimed to provide an estimate of the kinetic energy close to the
 sea bottom due to the effects of waves and currents in the Mediterranean Sea.
 The process of evaluating the value of a parameter on a curvilinear
