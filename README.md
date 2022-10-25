@@ -1,9 +1,10 @@
 # Seabottom Statistical Libraries v4.1
 This software has been developed in the course of several different phases of the
 EMODnet (European Marine Observation and Data Network) broad-scale seabed habitat map for Europe, known as EUSeaMap. (see https:
-//www.emodnet-seabedhabitats.eu). It started in 2013 during EMODnet phase 2 as a series of different FORmula TRANs-
-lator (FORTRAN) codes aimed to provide an estimate of the kinetic energy close to the
+//www.emodnet-seabedhabitats.eu). It started in 2013 during EMODnet phase 2 as a series of different FORmula TRANslator (FORTRAN) 
+codes aimed to provide an estimate of the kinetic energy close to the
 sea bottom due to the effects of waves and currents in the Mediterranean Sea.
+
 The process of evaluating the value of a parameter on a curvilinear
 surface close to the bottom from a more or less regular three-dimensional grid is not a
 simple problem of interpolation, since near the sea bottom important physical processes
@@ -23,6 +24,7 @@ the surface as obtained from high resolution statistical wave models of fourth g
 like Wave Model (WAM) or Wave Watch III (WWIII) and a high resolution
 bathymetry in the area of interest. The estimate is obtained by a simplified method,
 and described in the Annex "Compiling oceanographic layers". 
+
 In order to obtain an estimate of the kinetic energy due to current at a small distance
 from the bottom, a simple adaptation of the boundary layer algorithm used in the oceanographic 
 model used at Copernicus Marine Service (CMEMS) for the Mediterranean and
@@ -36,13 +38,13 @@ characteristics of the European seas to be successfully used to evaluate the bot
 netic energy. In 2022 it was decided to implement all software in the form of a library
 which would provide a way to easily extract the desired estimates using only CMEMS
 oceanographic outputs and EMODnet bathymetry.
+
 The code is written in Python for several (good) reasons. The first is that it is a widely 
 used language which has been adopted by almost all scientific communities. Second is that 
 is particularly apt to work in object-oriented environments, has effective methods to deal 
 with Network Common Data Form (NetCDF) and leads to surprisingly simple installation 
 procedures for the libraries. Actually only the path of the library needs to be set in 
-the script/notebook. 
-On the other hand, even though some efforts have been spent to improve vectorialization, 
+the script/notebook. On the other hand, even though some efforts have been spent to improve vectorialization, 
 the execution of a long term statistic evaluation could take some time. Not too
 long though (something between a coffee and a compact lunch), so in order to keeps the
 installation of the library and the code as simple as possible, no parallelisation has been
