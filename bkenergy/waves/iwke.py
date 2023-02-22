@@ -213,7 +213,7 @@ class Wbenergy(object):
                 tpz = np.where(tpz < 0.01, 0.01, tpz)
                 k = np.shape(hm0)
                 dep = np.zeros(k)
-                dep = dep + dd
+                dep = dep + abs(dd)
                 dep = np.where(hm0 > 0.8 * dep, 10., dep)
                 dep = np.where(dep < 4., 4., dep)
                 # if hm0==mvhs or tpz == mvtp:
