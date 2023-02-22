@@ -1,3 +1,8 @@
+# Seabottom Statistical Libraries v4.2 (February 2023)
+Bug correction in iwke.py:
+
+    dep = dep + dd —> dep = dep + abs(dd)
+
 # Seabottom Statistical Libraries v4.1
 This software has been developed in the course of several different phases of the
 EMODnet (European Marine Observation and Data Network) broad-scale seabed habitat map for Europe, known as EUSeaMap. (see https:
